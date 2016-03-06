@@ -81,7 +81,7 @@ def add():
         db.session.commit()
         flash('Added successfully')
         return redirect('/index')
-    return render_template('add.html',
+    return render_template('Add.html',
                            title='Add',
                            form=form)
 
